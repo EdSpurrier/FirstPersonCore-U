@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 67406b019a5a64f29b9f5b176729d2e7
+timeCreated: 1509378945
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube.015
+    100004: Cube.050
+    100006: Cube.052
+    100008: Cylinder.008
+    100010: decals.004
+    100012: decals.005
+    100014: decals.006
+    100016: decals.008
+    100018: panel_decals.004
+    400000: //RootNode
+    400002: Cube.015
+    400004: Cube.050
+    400006: Cube.052
+    400008: Cylinder.008
+    400010: decals.004
+    400012: decals.005
+    400014: decals.006
+    400016: decals.008
+    400018: panel_decals.004
+    2300000: Cube.015
+    2300002: Cube.050
+    2300004: Cube.052
+    2300006: Cylinder.008
+    2300008: decals.004
+    2300010: decals.005
+    2300012: decals.006
+    2300014: decals.008
+    2300016: panel_decals.004
+    3300000: Cube.015
+    3300002: Cube.050
+    3300004: Cube.052
+    3300006: Cylinder.008
+    3300008: decals.004
+    3300010: decals.005
+    3300012: decals.006
+    3300014: decals.008
+    3300016: panel_decals.004
+    4300000: Cube.015
+    4300002: decals.005
+    4300004: Cylinder.008
+    4300006: panel_decals.004
+    4300008: decals.008
+    4300010: Cube.050
+    4300012: decals.004
+    4300014: Cube.052
+    4300016: decals.006
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

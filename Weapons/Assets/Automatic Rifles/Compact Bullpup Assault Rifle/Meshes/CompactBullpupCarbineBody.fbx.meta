@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: b42d3f841b049e24484ace3f2c21393c
+timeCreated: 1517329734
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Barrel0
+    100002: Barrel1
+    100004: Barrel2
+    100006: bottom
+    100008: CompactBullpupAssaultRifle
+    100010: CompactBullpupAssaultRifleLOD0
+    100012: CompactBullpupAssaultRifleLOD1
+    100014: CompactBullpupAssaultRifleLOD2
+    100016: //RootNode
+    100018: FlashHider0
+    100020: FlashHider1
+    100022: FlashHider2
+    100024: MainBody0
+    100026: MainBody1
+    100028: MainBody2
+    400000: Barrel0
+    400002: Barrel1
+    400004: Barrel2
+    400006: bottom
+    400008: CompactBullpupAssaultRifle
+    400010: CompactBullpupAssaultRifleLOD0
+    400012: CompactBullpupAssaultRifleLOD1
+    400014: CompactBullpupAssaultRifleLOD2
+    400016: //RootNode
+    400018: FlashHider0
+    400020: FlashHider1
+    400022: FlashHider2
+    400024: MainBody0
+    400026: MainBody1
+    400028: MainBody2
+    2000000: bottom
+    2300000: Barrel0
+    2300002: Barrel1
+    2300004: Barrel2
+    2300006: FlashHider0
+    2300008: FlashHider1
+    2300010: FlashHider2
+    2300012: MainBody0
+    2300014: MainBody1
+    2300016: MainBody2
+    3300000: Barrel0
+    3300002: Barrel1
+    3300004: Barrel2
+    3300006: FlashHider0
+    3300008: FlashHider1
+    3300010: FlashHider2
+    3300012: MainBody0
+    3300014: MainBody1
+    3300016: MainBody2
+    4300000: MainBody2
+    4300002: FlashHider2
+    4300004: Barrel2
+    4300006: FlashHider1
+    4300008: MainBody1
+    4300010: Barrel1
+    4300012: MainBody0
+    4300014: Barrel0
+    4300016: FlashHider0
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

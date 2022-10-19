@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 57f95fd8ad4c644739ed47ec6052a572
+timeCreated: 1509378945
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube.053
+    100004: Cube.054
+    100006: Cylinder.009
+    100008: Cylinder.010
+    100010: Cylinder.011
+    100012: decals.001
+    100014: decals.002
+    100016: decals.003
+    100018: decals.007
+    100020: info_decals.001
+    100022: info_decals.003
+    100024: panel_decals
+    100026: panel_decals.001
+    100028: panel_decals.002
+    100030: panel_decals.003
+    400000: //RootNode
+    400002: Cube.053
+    400004: Cube.054
+    400006: Cylinder.009
+    400008: Cylinder.010
+    400010: Cylinder.011
+    400012: decals.001
+    400014: decals.002
+    400016: decals.003
+    400018: decals.007
+    400020: info_decals.001
+    400022: info_decals.003
+    400024: panel_decals
+    400026: panel_decals.001
+    400028: panel_decals.002
+    400030: panel_decals.003
+    2300000: Cube.053
+    2300002: Cube.054
+    2300004: Cylinder.009
+    2300006: Cylinder.010
+    2300008: Cylinder.011
+    2300010: decals.001
+    2300012: decals.002
+    2300014: decals.003
+    2300016: decals.007
+    2300018: info_decals.001
+    2300020: info_decals.003
+    2300022: panel_decals
+    2300024: panel_decals.001
+    2300026: panel_decals.002
+    2300028: panel_decals.003
+    3300000: Cube.053
+    3300002: Cube.054
+    3300004: Cylinder.009
+    3300006: Cylinder.010
+    3300008: Cylinder.011
+    3300010: decals.001
+    3300012: decals.002
+    3300014: decals.003
+    3300016: decals.007
+    3300018: info_decals.001
+    3300020: info_decals.003
+    3300022: panel_decals
+    3300024: panel_decals.001
+    3300026: panel_decals.002
+    3300028: panel_decals.003
+    4300000: Cube.053
+    4300002: info_decals.001
+    4300004: panel_decals
+    4300006: decals.007
+    4300008: Cylinder.009
+    4300010: info_decals.003
+    4300012: panel_decals.003
+    4300014: decals.003
+    4300016: Cube.054
+    4300018: Cylinder.011
+    4300020: panel_decals.002
+    4300022: decals.002
+    4300024: Cylinder.010
+    4300026: panel_decals.001
+    4300028: decals.001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

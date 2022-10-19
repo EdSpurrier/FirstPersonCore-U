@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 50bc4056c0b444c5a88a5fcf4e79dad9
+timeCreated: 1518382195
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.000
+    100004: Cube.004
+    100006: Cube.011
+    100008: Cube.016
+    100010: Cube.017
+    100012: Cube.018
+    100014: Cube.019
+    100016: Cylinder
+    100018: Cylinder.001
+    100020: Cylinder.019
+    100022: decals
+    100024: decals.004
+    100026: decals.005
+    100028: decals.007
+    100030: decals.008
+    100032: decals.009
+    100034: decals.010
+    100036: decals.011
+    100038: decals.012
+    100040: decals.013
+    100042: //RootNode
+    100044: info_decals.002
+    100046: info_decals.003
+    100048: info_decals.004
+    100050: panel_decals.002
+    100052: panel_decals.003
+    100054: panel_decals.004
+    400000: Cube
+    400002: Cube.000
+    400004: Cube.004
+    400006: Cube.011
+    400008: Cube.016
+    400010: Cube.017
+    400012: Cube.018
+    400014: Cube.019
+    400016: Cylinder
+    400018: Cylinder.001
+    400020: Cylinder.019
+    400022: decals
+    400024: decals.004
+    400026: decals.005
+    400028: decals.007
+    400030: decals.008
+    400032: decals.009
+    400034: decals.010
+    400036: decals.011
+    400038: decals.012
+    400040: decals.013
+    400042: //RootNode
+    400044: info_decals.002
+    400046: info_decals.003
+    400048: info_decals.004
+    400050: panel_decals.002
+    400052: panel_decals.003
+    400054: panel_decals.004
+    2300000: Cube
+    2300002: Cube.000
+    2300004: Cube.004
+    2300006: Cube.011
+    2300008: Cube.016
+    2300010: Cube.017
+    2300012: Cube.018
+    2300014: Cube.019
+    2300016: Cylinder
+    2300018: Cylinder.001
+    2300020: Cylinder.019
+    2300022: decals
+    2300024: decals.004
+    2300026: decals.005
+    2300028: decals.007
+    2300030: decals.008
+    2300032: decals.009
+    2300034: decals.010
+    2300036: decals.011
+    2300038: decals.012
+    2300040: decals.013
+    2300042: info_decals.002
+    2300044: info_decals.003
+    2300046: info_decals.004
+    2300048: panel_decals.002
+    2300050: panel_decals.003
+    2300052: panel_decals.004
+    3300000: Cube
+    3300002: Cube.000
+    3300004: Cube.004
+    3300006: Cube.011
+    3300008: Cube.016
+    3300010: Cube.017
+    3300012: Cube.018
+    3300014: Cube.019
+    3300016: Cylinder
+    3300018: Cylinder.001
+    3300020: Cylinder.019
+    3300022: decals
+    3300024: decals.004
+    3300026: decals.005
+    3300028: decals.007
+    3300030: decals.008
+    3300032: decals.009
+    3300034: decals.010
+    3300036: decals.011
+    3300038: decals.012
+    3300040: decals.013
+    3300042: info_decals.002
+    3300044: info_decals.003
+    3300046: info_decals.004
+    3300048: panel_decals.002
+    3300050: panel_decals.003
+    3300052: panel_decals.004
+    4300000: Cube.004
+    4300002: Cube.018
+    4300004: decals.009
+    4300006: Cube.017
+    4300008: decals.008
+    4300010: Cube.019
+    4300012: decals.010
+    4300014: Cube
+    4300016: info_decals.002
+    4300018: decals.004
+    4300020: Cylinder
+    4300022: info_decals.004
+    4300024: decals.013
+    4300026: panel_decals.004
+    4300028: Cube.011
+    4300030: decals
+    4300032: Cube.000
+    4300034: decals.007
+    4300036: Cylinder.001
+    4300038: decals.011
+    4300040: panel_decals.002
+    4300042: Cube.016
+    4300044: info_decals.003
+    4300046: decals.005
+    4300048: Cylinder.019
+    4300050: panel_decals.003
+    4300052: decals.012
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

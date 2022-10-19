@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: M3_weathering
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=13801\n1;412;1435;645;889.3884;170.4725;1;True;False\nNode;AmplifyShaderEditor.BlendOpsNode;3;-737.8475,-96.86316;Float;False;Screen;True;2;0;FLOAT;0,0,0,0;False;1;FLOAT;0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;17;-1546.399,-356.1448;Float;False;Geometry
+    Switch;1;2;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;2;-1054.884,-341.9252;Float;True;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;5;-468.8882,52.32581;Float;False;3;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SaturateNode;7;31.52612,89.11292;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.TFHCRemapNode;6;-222.6208,72.3739;Float;False;5;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;1.0;False;3;FLOAT;0.0;False;4;FLOAT;1.0;False;1;FLOAT\nNode;AmplifyShaderEditor.TFHCRemapNode;4;-481.8499,247.4739;Float;False;5;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;1.0;False;3;FLOAT;0.0;False;4;FLOAT;-1.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;1;-1054.438,-85.04919;Float;True;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;19;-1503.761,224.7579;Float;False;Amount;1;4;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;16;-1468.676,536.5026;Float;False;Grunge;1;6;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;20;-1492.551,375.8858;Float;False;Hardness;1;5;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;18;-1518.206,14.3501;Float;False;Decals
+    Switch;1;3;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;14;-1521.415,-500.9893;Float;False;Geometry;1;0;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;15;-1502.434,-101.0876;Float;False;Decals;1;1;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;13;392.4901,94.0896;Float;False;True;Output;0;False;1;0;FLOAT;0,0,0,0;False;1;FLOAT\nWireConnection;3;0;2;0\nWireConnection;3;1;1;0\nWireConnection;2;0;14;0\nWireConnection;2;1;17;0\nWireConnection;5;0;3;0\nWireConnection;5;1;19;0\nWireConnection;5;2;16;0\nWireConnection;7;0;6;0\nWireConnection;6;0;5;0\nWireConnection;6;3;4;0\nWireConnection;4;0;20;0\nWireConnection;1;0;15;0\nWireConnection;1;1;18;0\nWireConnection;13;0;7;0\nASEEND*/\n//CHKSM=CF67906590CC233E7B41C95FECBB9E010BEEF86C"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

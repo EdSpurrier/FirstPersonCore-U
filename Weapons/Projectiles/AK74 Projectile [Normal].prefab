@@ -1,0 +1,1447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6897040053226717645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8482037586283205895}
+  - component: {fileID: 3761934961705565078}
+  - component: {fileID: 4185914406592678849}
+  - component: {fileID: 4071909148357237482}
+  - component: {fileID: 8991348730689635602}
+  m_Layer: 0
+  m_Name: AK74 Projectile [Normal]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8482037586283205895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897040053226717645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3932812088219955597}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3761934961705565078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897040053226717645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756cf15b13da9614cb03fcad8fb40cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventManagerName: Destroy
+  activate: 0
+  queueInSuccession: 1
+  loop: 0
+  singleUse: 1
+  events:
+  - eventName: Event Name
+    waitTime: 2
+    debounce:
+      debounceTime: 0
+      currentDebounceTime: 0
+    actions:
+    - toggle: 1
+      actionName: Destroy
+      actionType: 2
+      objects:
+      - {fileID: 6897040053226717645}
+      parent: {fileID: 0}
+      scale:
+        instantScale: 0
+        speed: 1
+        scaleTo: {x: 0, y: 0, z: 0}
+        scaleFromTo:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        transformsToScale: []
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        scaleAmount: 0
+        debug:
+          active: 0
+      rotateToFrom: {fileID: 0}
+      spawn:
+        prefab: {fileID: 0}
+        spawnPositionType: 0
+        parent: {fileID: 0}
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        spawnPointReference: {fileID: 0}
+        spawnRotationReference: {fileID: 0}
+        debug:
+          active: 0
+      randomizeRotation:
+        axis: 0
+        rotationType: 0
+        randomRange:
+          min: -1
+          max: 1
+        transforms: []
+        debug:
+          active: 0
+      randomizePosition:
+        randomPositionType: 0
+        positionType: 0
+        randomRange:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        colliders: []
+        transforms: []
+        debug:
+          active: 0
+      push:
+        forceMode: 0
+        valueType: 0
+        relativeForce: 0
+        pushOrigin: {fileID: 0}
+        velocityRange:
+          min: -1
+          max: 1
+        velocity: 500
+        unPinStrength: 200
+        hitObjects: {fileID: 0}
+        rigidbodies: []
+      animation:
+        animator: {fileID: 0}
+        animationTriggerType: 0
+        parameterName: 
+        boolValue: 1
+        intValue: 0
+        floatValue: 0
+        debug:
+          active: 0
+      explosion:
+        appendixName: 0
+        explosionPosition: {fileID: 0}
+        mask: 0
+        radiusFallOff: 1
+        radiusAndFallOff:
+          min: 3
+          max: 5
+        radius: 5
+        power: 10
+        upwardsPush: 0
+        hitObjects: {fileID: 0}
+        debug:
+          active: 0
+      eventManager:
+        eventManager: {fileID: 0}
+        debug:
+          active: 0
+      damage:
+        hitObjects: {fileID: 0}
+        damage:
+          type: 0
+          damage: 15
+          damageRange:
+            min: 7
+            max: 15
+          onlyHitCharacterOnce: 0
+          charactersHit: []
+        impactType: 0
+        debug:
+          active: 0
+      raycast: {fileID: 0}
+      fade:
+        speed: 1
+        fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+        shaderProperty: _TintColor
+        renderer: {fileID: 0}
+        startColor: {r: 0, g: 0, b: 0, a: 0}
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        fadeAmount: 0
+        debug:
+          active: 0
+      soundFX:
+        soundController: {fileID: 0}
+        soundName: No Sound Selected...
+      sceneUpdate:
+        sceneUpdateType: 0
+        sceneCoreScene:
+          sceneName: 
+          loadSceneMode: 0
+          asyncSpeed: 0
+          activated: 0
+          activateOnLoad: 0
+          onCompleteEvent:
+            eventName: Event Name
+            waitTime: 0
+            debounce:
+              debounceTime: 0
+              currentDebounceTime: 0
+            actions: []
+            triggerEvent:
+              m_PersistentCalls:
+                m_Calls: []
+            active: 0
+            eventManager: {fileID: 0}
+            processTime: 0
+            debug:
+              active: 0
+          actionManager:
+            toggle: 1
+            actionName: 
+            actionType: 0
+            objects: []
+            parent: {fileID: 0}
+            scale:
+              instantScale: 0
+              speed: 1
+              scaleTo: {x: 0, y: 0, z: 0}
+              scaleFromTo:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              transformsToScale: []
+              onCompleteEvent: {}
+              scaleAmount: 0
+              debug:
+                active: 0
+            rotateToFrom: {fileID: 0}
+            spawn:
+              prefab: {fileID: 0}
+              spawnPositionType: 0
+              parent: {fileID: 0}
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0}
+              spawnPointReference: {fileID: 0}
+              spawnRotationReference: {fileID: 0}
+              debug:
+                active: 0
+            randomizeRotation:
+              axis: 0
+              rotationType: 0
+              randomRange:
+                min: -1
+                max: 1
+              transforms: []
+              debug:
+                active: 0
+            randomizePosition:
+              randomPositionType: 0
+              positionType: 0
+              randomRange:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              colliders: []
+              transforms: []
+              debug:
+                active: 0
+            push:
+              forceMode: 0
+              valueType: 0
+              relativeForce: 0
+              pushOrigin: {fileID: 0}
+              velocityRange:
+                min: -1
+                max: 1
+              velocity: 500
+              unPinStrength: 200
+              hitObjects: {fileID: 0}
+              rigidbodies: []
+            animation:
+              animator: {fileID: 0}
+              animationTriggerType: 0
+              parameterName: 
+              boolValue: 1
+              intValue: 0
+              floatValue: 0
+              debug:
+                active: 0
+            explosion:
+              appendixName: 0
+              explosionPosition: {fileID: 0}
+              mask: 0
+              radiusFallOff: 1
+              radiusAndFallOff:
+                min: 3
+                max: 5
+              radius: 5
+              power: 10
+              upwardsPush: 0
+              hitObjects: {fileID: 0}
+              debug:
+                active: 0
+            eventManager:
+              eventManager: {fileID: 0}
+              debug:
+                active: 0
+            damage:
+              hitObjects: {fileID: 0}
+              damage:
+                type: 0
+                damage: 15
+                damageRange:
+                  min: 7
+                  max: 15
+                onlyHitCharacterOnce: 0
+                charactersHit: []
+              impactType: 0
+              debug:
+                active: 0
+            raycast: {fileID: 0}
+            fade:
+              speed: 1
+              fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+              shaderProperty: _TintColor
+              renderer: {fileID: 0}
+              startColor: {r: 0, g: 0, b: 0, a: 0}
+              onCompleteEvent: {}
+              fadeAmount: 0
+              debug:
+                active: 0
+            soundFX:
+              soundController: {fileID: 0}
+              soundName: No Sound Selected...
+            sceneUpdate:
+              sceneUpdateType: 0
+              sceneCoreScene:
+                sceneName: 
+                loadSceneMode: 0
+                asyncSpeed: 0
+                activated: 0
+                activateOnLoad: 0
+                onCompleteEvent:
+                  eventName: Event Name
+                  waitTime: 0
+                  active: 0
+                  processTime: 0
+                actionManager:
+                  toggle: 1
+                  actionName: 
+                  actionType: 0
+                  active: 0
+                  complete: 0
+                loadAmount: 0
+                loadingTime: 0
+                loading: 0
+                debug:
+                  active: 0
+              sceneName: 
+            haptics:
+              hapticsHand: 0
+              preset: 0
+              interactableItemVR: {fileID: 0}
+              settings:
+                hideType: 1
+                type: 1
+                duration: 0.25
+                bounce: 80
+                intensity: 0.5
+            active: 0
+            complete: 0
+          loadAmount: 0
+          loadingTime: 0
+          loading: 0
+          debug:
+            active: 0
+        sceneName: 
+      haptics:
+        hapticsHand: 0
+        preset: 0
+        interactableItemVR: {fileID: 0}
+        settings:
+          hideType: 1
+          type: 1
+          duration: 0.25
+          bounce: 80
+          intensity: 0.5
+      active: 0
+      complete: 0
+    triggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    active: 0
+    eventManager: {fileID: 0}
+    processTime: 0
+    debug:
+      active: 0
+  activated: 0
+  debug:
+    active: 0
+--- !u!114 &4185914406592678849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897040053226717645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e236d3302c3882b46bd737c89874b8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listName: Hit Objects With Hit Point & Float
+  listType: 3
+  allowRepeatingObjects: 0
+  gameObjects: []
+  transforms: []
+  gameObjectsWithFloats: []
+  gameObjectsWithHitPointAndFloat: []
+--- !u!114 &4071909148357237482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897040053226717645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65bbe6b633865740aff806c360d903a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateOnStart: 1
+  singleTrigger: 0
+  layerMask: 2
+  origin: {fileID: 8482037586283205895}
+  hitPoint: {fileID: 3932812088219955597}
+  type:
+    type: 0
+    toggle: 0
+    rangeCount:
+      min: -1
+      max: 1
+    countUpToNumber: 10
+    countLimit: 5
+    triggerCount: 0
+    toggleState: 0
+    debug:
+      active: 0
+  distanceFallOff: 1
+  distanceAndFallOff:
+    min: 35
+    max: 75
+  distance: 100
+  preRaycastEventActive: 1
+  preRaycastEvent:
+    eventName: Pre Raycast
+    waitTime: 0
+    debounce:
+      debounceTime: 0
+      currentDebounceTime: 0
+    actions: []
+    triggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    active: 0
+    eventManager: {fileID: 0}
+    processTime: 0
+    debug:
+      active: 0
+  postRaycastEvent:
+    eventName: Post Raycast
+    waitTime: 0
+    debounce:
+      debounceTime: 0
+      currentDebounceTime: 0
+    actions:
+    - toggle: 1
+      actionName: Damage
+      actionType: 13
+      objects: []
+      parent: {fileID: 0}
+      scale:
+        instantScale: 0
+        speed: 1
+        scaleTo: {x: 0, y: 0, z: 0}
+        scaleFromTo:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        transformsToScale: []
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        scaleAmount: 0
+        debug:
+          active: 0
+      rotateToFrom: {fileID: 0}
+      spawn:
+        prefab: {fileID: 0}
+        spawnPositionType: 0
+        parent: {fileID: 0}
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        spawnPointReference: {fileID: 0}
+        spawnRotationReference: {fileID: 0}
+        debug:
+          active: 0
+      randomizeRotation:
+        axis: 0
+        rotationType: 0
+        randomRange:
+          min: -1
+          max: 1
+        transforms: []
+        debug:
+          active: 0
+      randomizePosition:
+        randomPositionType: 0
+        positionType: 0
+        randomRange:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        colliders: []
+        transforms: []
+        debug:
+          active: 0
+      push:
+        forceMode: 0
+        valueType: 0
+        relativeForce: 1
+        pushOrigin: {fileID: 0}
+        velocityRange:
+          min: -1
+          max: 1
+        velocity: 0
+        unPinStrength: 200
+        hitObjects: {fileID: 0}
+        rigidbodies: []
+      animation:
+        animator: {fileID: 0}
+        animationTriggerType: 0
+        parameterName: 
+        boolValue: 1
+        intValue: 0
+        floatValue: 0
+        debug:
+          active: 0
+      explosion:
+        appendixName: 0
+        explosionPosition: {fileID: 0}
+        mask: 0
+        radiusFallOff: 1
+        radiusAndFallOff:
+          min: 3
+          max: 5
+        radius: 5
+        power: 10
+        upwardsPush: 0
+        hitObjects: {fileID: 0}
+        debug:
+          active: 0
+      eventManager:
+        eventManager: {fileID: 0}
+        debug:
+          active: 0
+      damage:
+        hitObjects: {fileID: 4185914406592678849}
+        damage:
+          type: 1
+          damage: 15
+          damageRange:
+            min: 10
+            max: 17
+          onlyHitCharacterOnce: 0
+          charactersHit: []
+        impactType: 1
+        debug:
+          active: 0
+      raycast: {fileID: 0}
+      fade:
+        speed: 1
+        fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+        shaderProperty: _TintColor
+        renderer: {fileID: 0}
+        startColor: {r: 0, g: 0, b: 0, a: 0}
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        fadeAmount: 0
+        debug:
+          active: 0
+      soundFX:
+        soundController: {fileID: 0}
+        soundName: No Sound Selected...
+      sceneUpdate:
+        sceneUpdateType: 0
+        sceneCoreScene:
+          sceneName: 
+          loadSceneMode: 0
+          asyncSpeed: 0
+          activated: 0
+          activateOnLoad: 0
+          onCompleteEvent:
+            eventName: Event Name
+            waitTime: 0
+            debounce:
+              debounceTime: 0
+              currentDebounceTime: 0
+            actions: []
+            triggerEvent:
+              m_PersistentCalls:
+                m_Calls: []
+            active: 0
+            eventManager: {fileID: 0}
+            processTime: 0
+            debug:
+              active: 0
+          actionManager:
+            toggle: 1
+            actionName: 
+            actionType: 0
+            objects: []
+            parent: {fileID: 0}
+            scale:
+              instantScale: 0
+              speed: 1
+              scaleTo: {x: 0, y: 0, z: 0}
+              scaleFromTo:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              transformsToScale: []
+              onCompleteEvent: {}
+              scaleAmount: 0
+              debug:
+                active: 0
+            rotateToFrom: {fileID: 0}
+            spawn:
+              prefab: {fileID: 0}
+              spawnPositionType: 0
+              parent: {fileID: 0}
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0}
+              spawnPointReference: {fileID: 0}
+              spawnRotationReference: {fileID: 0}
+              debug:
+                active: 0
+            randomizeRotation:
+              axis: 0
+              rotationType: 0
+              randomRange:
+                min: -1
+                max: 1
+              transforms: []
+              debug:
+                active: 0
+            randomizePosition:
+              randomPositionType: 0
+              positionType: 0
+              randomRange:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              colliders: []
+              transforms: []
+              debug:
+                active: 0
+            push:
+              forceMode: 0
+              valueType: 0
+              relativeForce: 0
+              pushOrigin: {fileID: 0}
+              velocityRange:
+                min: -1
+                max: 1
+              velocity: 500
+              unPinStrength: 200
+              hitObjects: {fileID: 0}
+              rigidbodies: []
+            animation:
+              animator: {fileID: 0}
+              animationTriggerType: 0
+              parameterName: 
+              boolValue: 1
+              intValue: 0
+              floatValue: 0
+              debug:
+                active: 0
+            explosion:
+              appendixName: 0
+              explosionPosition: {fileID: 0}
+              mask: 0
+              radiusFallOff: 1
+              radiusAndFallOff:
+                min: 3
+                max: 5
+              radius: 5
+              power: 10
+              upwardsPush: 0
+              hitObjects: {fileID: 0}
+              debug:
+                active: 0
+            eventManager:
+              eventManager: {fileID: 0}
+              debug:
+                active: 0
+            damage:
+              hitObjects: {fileID: 0}
+              damage:
+                type: 0
+                damage: 15
+                damageRange:
+                  min: 7
+                  max: 15
+                onlyHitCharacterOnce: 0
+                charactersHit: []
+              impactType: 0
+              debug:
+                active: 0
+            raycast: {fileID: 0}
+            fade:
+              speed: 1
+              fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+              shaderProperty: _TintColor
+              renderer: {fileID: 0}
+              startColor: {r: 0, g: 0, b: 0, a: 0}
+              onCompleteEvent: {}
+              fadeAmount: 0
+              debug:
+                active: 0
+            soundFX:
+              soundController: {fileID: 0}
+              soundName: No Sound Selected...
+            sceneUpdate:
+              sceneUpdateType: 0
+              sceneCoreScene:
+                sceneName: 
+                loadSceneMode: 0
+                asyncSpeed: 0
+                activated: 0
+                activateOnLoad: 0
+                onCompleteEvent:
+                  eventName: Event Name
+                  waitTime: 0
+                  active: 0
+                  processTime: 0
+                actionManager:
+                  toggle: 1
+                  actionName: 
+                  actionType: 0
+                  active: 0
+                  complete: 0
+                loadAmount: 0
+                loadingTime: 0
+                loading: 0
+                debug:
+                  active: 0
+              sceneName: 
+            haptics:
+              hapticsHand: 0
+              preset: 0
+              interactableItemVR: {fileID: 0}
+              settings:
+                hideType: 1
+                type: 1
+                duration: 0.25
+                bounce: 80
+                intensity: 0.5
+            active: 0
+            complete: 0
+          loadAmount: 0
+          loadingTime: 0
+          loading: 0
+          debug:
+            active: 0
+        sceneName: 
+      haptics:
+        hapticsHand: 0
+        preset: 0
+        interactableItemVR: {fileID: 0}
+        settings:
+          hideType: 1
+          type: 1
+          duration: 0.25
+          bounce: 80
+          intensity: 0.5
+      active: 0
+      complete: 0
+    - toggle: 1
+      actionName: Push
+      actionType: 7
+      objects: []
+      parent: {fileID: 0}
+      scale:
+        instantScale: 0
+        speed: 1
+        scaleTo: {x: 0, y: 0, z: 0}
+        scaleFromTo:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        transformsToScale: []
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        scaleAmount: 0
+        debug:
+          active: 0
+      rotateToFrom: {fileID: 0}
+      spawn:
+        prefab: {fileID: 0}
+        spawnPositionType: 0
+        parent: {fileID: 0}
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        spawnPointReference: {fileID: 0}
+        spawnRotationReference: {fileID: 0}
+        debug:
+          active: 0
+      randomizeRotation:
+        axis: 0
+        rotationType: 0
+        randomRange:
+          min: -1
+          max: 1
+        transforms: []
+        debug:
+          active: 0
+      randomizePosition:
+        randomPositionType: 0
+        positionType: 0
+        randomRange:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        colliders: []
+        transforms: []
+        debug:
+          active: 0
+      push:
+        forceMode: 0
+        valueType: 0
+        relativeForce: 1
+        pushOrigin: {fileID: 8482037586283205895}
+        velocityRange:
+          min: -1
+          max: 1
+        velocity: 100
+        unPinStrength: 7
+        hitObjects: {fileID: 4185914406592678849}
+        rigidbodies: []
+      animation:
+        animator: {fileID: 0}
+        animationTriggerType: 0
+        parameterName: 
+        boolValue: 1
+        intValue: 0
+        floatValue: 0
+        debug:
+          active: 0
+      explosion:
+        appendixName: 0
+        explosionPosition: {fileID: 0}
+        mask: 0
+        radiusFallOff: 1
+        radiusAndFallOff:
+          min: 3
+          max: 5
+        radius: 5
+        power: 10
+        upwardsPush: 0
+        hitObjects: {fileID: 0}
+        debug:
+          active: 0
+      eventManager:
+        eventManager: {fileID: 0}
+        debug:
+          active: 0
+      damage:
+        hitObjects: {fileID: 0}
+        damage:
+          type: 0
+          damage: 15
+          damageRange:
+            min: 7
+            max: 15
+          onlyHitCharacterOnce: 0
+          charactersHit: []
+        impactType: 0
+        debug:
+          active: 0
+      raycast: {fileID: 0}
+      fade:
+        speed: 1
+        fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+        shaderProperty: _TintColor
+        renderer: {fileID: 0}
+        startColor: {r: 0, g: 0, b: 0, a: 0}
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        fadeAmount: 0
+        debug:
+          active: 0
+      soundFX:
+        soundController: {fileID: 0}
+        soundName: No Sound Selected...
+      sceneUpdate:
+        sceneUpdateType: 0
+        sceneCoreScene:
+          sceneName: 
+          loadSceneMode: 0
+          asyncSpeed: 0
+          activated: 0
+          activateOnLoad: 0
+          onCompleteEvent:
+            eventName: Event Name
+            waitTime: 0
+            debounce:
+              debounceTime: 0
+              currentDebounceTime: 0
+            actions: []
+            triggerEvent:
+              m_PersistentCalls:
+                m_Calls: []
+            active: 0
+            eventManager: {fileID: 0}
+            processTime: 0
+            debug:
+              active: 0
+          actionManager:
+            toggle: 1
+            actionName: 
+            actionType: 0
+            objects: []
+            parent: {fileID: 0}
+            scale:
+              instantScale: 0
+              speed: 1
+              scaleTo: {x: 0, y: 0, z: 0}
+              scaleFromTo:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              transformsToScale: []
+              onCompleteEvent: {}
+              scaleAmount: 0
+              debug:
+                active: 0
+            rotateToFrom: {fileID: 0}
+            spawn:
+              prefab: {fileID: 0}
+              spawnPositionType: 0
+              parent: {fileID: 0}
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0}
+              spawnPointReference: {fileID: 0}
+              spawnRotationReference: {fileID: 0}
+              debug:
+                active: 0
+            randomizeRotation:
+              axis: 0
+              rotationType: 0
+              randomRange:
+                min: -1
+                max: 1
+              transforms: []
+              debug:
+                active: 0
+            randomizePosition:
+              randomPositionType: 0
+              positionType: 0
+              randomRange:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              colliders: []
+              transforms: []
+              debug:
+                active: 0
+            push:
+              forceMode: 0
+              valueType: 0
+              relativeForce: 0
+              pushOrigin: {fileID: 0}
+              velocityRange:
+                min: -1
+                max: 1
+              velocity: 500
+              unPinStrength: 200
+              hitObjects: {fileID: 0}
+              rigidbodies: []
+            animation:
+              animator: {fileID: 0}
+              animationTriggerType: 0
+              parameterName: 
+              boolValue: 1
+              intValue: 0
+              floatValue: 0
+              debug:
+                active: 0
+            explosion:
+              appendixName: 0
+              explosionPosition: {fileID: 0}
+              mask: 0
+              radiusFallOff: 1
+              radiusAndFallOff:
+                min: 3
+                max: 5
+              radius: 5
+              power: 10
+              upwardsPush: 0
+              hitObjects: {fileID: 0}
+              debug:
+                active: 0
+            eventManager:
+              eventManager: {fileID: 0}
+              debug:
+                active: 0
+            damage:
+              hitObjects: {fileID: 0}
+              damage:
+                type: 0
+                damage: 15
+                damageRange:
+                  min: 7
+                  max: 15
+                onlyHitCharacterOnce: 0
+                charactersHit: []
+              impactType: 0
+              debug:
+                active: 0
+            raycast: {fileID: 0}
+            fade:
+              speed: 1
+              fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+              shaderProperty: _TintColor
+              renderer: {fileID: 0}
+              startColor: {r: 0, g: 0, b: 0, a: 0}
+              onCompleteEvent: {}
+              fadeAmount: 0
+              debug:
+                active: 0
+            soundFX:
+              soundController: {fileID: 0}
+              soundName: No Sound Selected...
+            sceneUpdate:
+              sceneUpdateType: 0
+              sceneCoreScene:
+                sceneName: 
+                loadSceneMode: 0
+                asyncSpeed: 0
+                activated: 0
+                activateOnLoad: 0
+                onCompleteEvent:
+                  eventName: Event Name
+                  waitTime: 0
+                  active: 0
+                  processTime: 0
+                actionManager:
+                  toggle: 1
+                  actionName: 
+                  actionType: 0
+                  active: 0
+                  complete: 0
+                loadAmount: 0
+                loadingTime: 0
+                loading: 0
+                debug:
+                  active: 0
+              sceneName: 
+            haptics:
+              hapticsHand: 0
+              preset: 0
+              interactableItemVR: {fileID: 0}
+              settings:
+                hideType: 1
+                type: 1
+                duration: 0.25
+                bounce: 80
+                intensity: 0.5
+            active: 0
+            complete: 0
+          loadAmount: 0
+          loadingTime: 0
+          loading: 0
+          debug:
+            active: 0
+        sceneName: 
+      haptics:
+        hapticsHand: 0
+        preset: 0
+        interactableItemVR: {fileID: 0}
+        settings:
+          hideType: 1
+          type: 1
+          duration: 0.25
+          bounce: 80
+          intensity: 0.5
+      active: 0
+      complete: 0
+    - toggle: 1
+      actionName: Destroy
+      actionType: 2
+      objects:
+      - {fileID: 0}
+      parent: {fileID: 0}
+      scale:
+        instantScale: 0
+        speed: 1
+        scaleTo: {x: 0, y: 0, z: 0}
+        scaleFromTo:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        transformsToScale: []
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        scaleAmount: 0
+        debug:
+          active: 0
+      rotateToFrom: {fileID: 0}
+      spawn:
+        prefab: {fileID: 0}
+        spawnPositionType: 0
+        parent: {fileID: 0}
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        spawnPointReference: {fileID: 0}
+        spawnRotationReference: {fileID: 0}
+        debug:
+          active: 0
+      randomizeRotation:
+        axis: 0
+        rotationType: 0
+        randomRange:
+          min: -1
+          max: 1
+        transforms: []
+        debug:
+          active: 0
+      randomizePosition:
+        randomPositionType: 0
+        positionType: 0
+        randomRange:
+          min: {x: 0, y: 0, z: 0}
+          max: {x: 1, y: 1, z: 1}
+        colliders: []
+        transforms: []
+        debug:
+          active: 0
+      push:
+        forceMode: 0
+        valueType: 0
+        relativeForce: 0
+        pushOrigin: {fileID: 0}
+        velocityRange:
+          min: -1
+          max: 1
+        velocity: 500
+        unPinStrength: 200
+        hitObjects: {fileID: 0}
+        rigidbodies: []
+      animation:
+        animator: {fileID: 0}
+        animationTriggerType: 0
+        parameterName: 
+        boolValue: 1
+        intValue: 0
+        floatValue: 0
+        debug:
+          active: 0
+      explosion:
+        appendixName: 0
+        explosionPosition: {fileID: 0}
+        mask: 0
+        radiusFallOff: 1
+        radiusAndFallOff:
+          min: 3
+          max: 5
+        radius: 5
+        power: 10
+        upwardsPush: 0
+        hitObjects: {fileID: 0}
+        debug:
+          active: 0
+      eventManager:
+        eventManager: {fileID: 0}
+        debug:
+          active: 0
+      damage:
+        hitObjects: {fileID: 0}
+        damage:
+          type: 0
+          damage: 15
+          damageRange:
+            min: 7
+            max: 15
+          onlyHitCharacterOnce: 0
+          charactersHit: []
+        impactType: 0
+        debug:
+          active: 0
+      raycast: {fileID: 0}
+      fade:
+        speed: 1
+        fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+        shaderProperty: _TintColor
+        renderer: {fileID: 0}
+        startColor: {r: 0, g: 0, b: 0, a: 0}
+        onCompleteEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        fadeAmount: 0
+        debug:
+          active: 0
+      soundFX:
+        soundController: {fileID: 0}
+        soundName: No Sound Selected...
+      sceneUpdate:
+        sceneUpdateType: 0
+        sceneCoreScene:
+          sceneName: 
+          loadSceneMode: 0
+          asyncSpeed: 0
+          activated: 0
+          activateOnLoad: 0
+          onCompleteEvent:
+            eventName: Event Name
+            waitTime: 0
+            debounce:
+              debounceTime: 0
+              currentDebounceTime: 0
+            actions: []
+            triggerEvent:
+              m_PersistentCalls:
+                m_Calls: []
+            active: 0
+            eventManager: {fileID: 0}
+            processTime: 0
+            debug:
+              active: 0
+          actionManager:
+            toggle: 1
+            actionName: 
+            actionType: 0
+            objects: []
+            parent: {fileID: 0}
+            scale:
+              instantScale: 0
+              speed: 1
+              scaleTo: {x: 0, y: 0, z: 0}
+              scaleFromTo:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              transformsToScale: []
+              onCompleteEvent: {}
+              scaleAmount: 0
+              debug:
+                active: 0
+            rotateToFrom: {fileID: 0}
+            spawn:
+              prefab: {fileID: 0}
+              spawnPositionType: 0
+              parent: {fileID: 0}
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0}
+              spawnPointReference: {fileID: 0}
+              spawnRotationReference: {fileID: 0}
+              debug:
+                active: 0
+            randomizeRotation:
+              axis: 0
+              rotationType: 0
+              randomRange:
+                min: -1
+                max: 1
+              transforms: []
+              debug:
+                active: 0
+            randomizePosition:
+              randomPositionType: 0
+              positionType: 0
+              randomRange:
+                min: {x: 0, y: 0, z: 0}
+                max: {x: 1, y: 1, z: 1}
+              colliders: []
+              transforms: []
+              debug:
+                active: 0
+            push:
+              forceMode: 0
+              valueType: 0
+              relativeForce: 0
+              pushOrigin: {fileID: 0}
+              velocityRange:
+                min: -1
+                max: 1
+              velocity: 500
+              unPinStrength: 200
+              hitObjects: {fileID: 0}
+              rigidbodies: []
+            animation:
+              animator: {fileID: 0}
+              animationTriggerType: 0
+              parameterName: 
+              boolValue: 1
+              intValue: 0
+              floatValue: 0
+              debug:
+                active: 0
+            explosion:
+              appendixName: 0
+              explosionPosition: {fileID: 0}
+              mask: 0
+              radiusFallOff: 1
+              radiusAndFallOff:
+                min: 3
+                max: 5
+              radius: 5
+              power: 10
+              upwardsPush: 0
+              hitObjects: {fileID: 0}
+              debug:
+                active: 0
+            eventManager:
+              eventManager: {fileID: 0}
+              debug:
+                active: 0
+            damage:
+              hitObjects: {fileID: 0}
+              damage:
+                type: 0
+                damage: 15
+                damageRange:
+                  min: 7
+                  max: 15
+                onlyHitCharacterOnce: 0
+                charactersHit: []
+              impactType: 0
+              debug:
+                active: 0
+            raycast: {fileID: 0}
+            fade:
+              speed: 1
+              fadeToColor: {r: 0, g: 0, b: 0, a: 0}
+              shaderProperty: _TintColor
+              renderer: {fileID: 0}
+              startColor: {r: 0, g: 0, b: 0, a: 0}
+              onCompleteEvent: {}
+              fadeAmount: 0
+              debug:
+                active: 0
+            soundFX:
+              soundController: {fileID: 0}
+              soundName: No Sound Selected...
+            sceneUpdate:
+              sceneUpdateType: 0
+              sceneCoreScene:
+                sceneName: 
+                loadSceneMode: 0
+                asyncSpeed: 0
+                activated: 0
+                activateOnLoad: 0
+                onCompleteEvent:
+                  eventName: Event Name
+                  waitTime: 0
+                  active: 0
+                  processTime: 0
+                actionManager:
+                  toggle: 1
+                  actionName: 
+                  actionType: 0
+                  active: 0
+                  complete: 0
+                loadAmount: 0
+                loadingTime: 0
+                loading: 0
+                debug:
+                  active: 0
+              sceneName: 
+            haptics:
+              hapticsHand: 0
+              preset: 0
+              interactableItemVR: {fileID: 0}
+              settings:
+                hideType: 1
+                type: 1
+                duration: 0.25
+                bounce: 80
+                intensity: 0.5
+            active: 0
+            complete: 0
+          loadAmount: 0
+          loadingTime: 0
+          loading: 0
+          debug:
+            active: 0
+        sceneName: 
+      haptics:
+        hapticsHand: 0
+        preset: 0
+        interactableItemVR: {fileID: 0}
+        settings:
+          hideType: 1
+          type: 1
+          duration: 0.25
+          bounce: 80
+          intensity: 0.5
+      active: 0
+      complete: 0
+    triggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    active: 0
+    eventManager: {fileID: 0}
+    processTime: 0
+    debug:
+      active: 0
+  hitObjects: {fileID: 4185914406592678849}
+  active: 0
+  debug:
+    active: 0
+--- !u!114 &8991348730689635602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897040053226717645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e236d3302c3882b46bd737c89874b8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listName: Hit Objects With Hit Point & Float
+  listType: 3
+  allowRepeatingObjects: 0
+  gameObjects: []
+  transforms: []
+  gameObjectsWithFloats: []
+  gameObjectsWithHitPointAndFloat: []
+--- !u!1 &8321622510190331939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3932812088219955597}
+  m_Layer: 0
+  m_Name: Hit Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3932812088219955597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8321622510190331939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8482037586283205895}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: M3_lerp
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=13801\n1;396;1435;661;1887.009;473.7956;1.80129;True;False\nNode;AmplifyShaderEditor.FunctionInput;15;-824.7667,362.6884;Float;False;RoughnessB;1;6;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.WireNode;13;-734.3878,216.5689;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;9;-821.9207,13.57398;Float;False;MetallicA;1;3;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;5;-294.5,236.5;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.WireNode;12;-809.788,-47.331;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;14;-831.3094,273.5493;Float;False;RoughnessA;1;5;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;8;-1265.079,88.74406;Float;False;Mask;1;0;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;6;-829.9901,-264.2712;Float;False;ColorA;5;1;False;1;0;COLOR;0,0,0,0;False;1;COLOR\nNode;AmplifyShaderEditor.WireNode;16;-814.8062,497.7525;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;3;-304.5,-181.5;Float;False;3;0;COLOR;0.0;False;1;COLOR;0.0,0,0,0;False;2;FLOAT;0.0,0,0,0;False;1;COLOR\nNode;AmplifyShaderEditor.FunctionInput;10;-825.478,111.013;Float;False;MetallicB;1;4;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.LerpOp;4;-302.9205,29.02649;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;7;-825.3812,-171.7057;Float;False;ColorB;5;2;False;1;0;COLOR;0,0,0,0;False;1;COLOR\nNode;AmplifyShaderEditor.FunctionOutput;0;81,-169;Float;False;True;Color;0;False;1;0;COLOR;0.0;False;1;COLOR\nNode;AmplifyShaderEditor.FunctionOutput;1;86.5,53.5;Float;False;False;Metallic;1;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;2;81.5,235.5;Float;False;True;Roughness;2;False;1;0;FLOAT;0.0;False;1;FLOAT\nWireConnection;13;0;8;0\nWireConnection;5;0;14;0\nWireConnection;5;1;15;0\nWireConnection;5;2;16;0\nWireConnection;12;0;8;0\nWireConnection;16;0;8;0\nWireConnection;3;0;6;0\nWireConnection;3;1;7;0\nWireConnection;3;2;12;0\nWireConnection;4;0;9;0\nWireConnection;4;1;10;0\nWireConnection;4;2;13;0\nWireConnection;0;0;3;0\nWireConnection;1;0;4;0\nWireConnection;2;0;5;0\nASEEND*/\n//CHKSM=7AD632EE3C78A5DD9EC9B01FDD0CE230A4BE9619"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
